@@ -1,0 +1,126 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* MOBILE FIRST (BASE) */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header{
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    color: white;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* SECCIONES */
+section{
+    background: white;
+    margin: 20px 15px;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+
+/* TITULOS */
+h2{
+    color: #0d6efd;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+/* LISTAS */
+.beneficios{
+    margin-top: 10px;
+}
+
+.beneficios li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+/* BOTONES */
+.boton{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #198754;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* DEMO */
+.demo{
+    background: #eef2f7;
+    text-align: center;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.85rem;
+    color: #777;
+}
+@media (min-width: 768px){
+
+    header{
+        padding: 55px 20px;
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+
+    section{
+        max-width: 720px;
+        margin: 30px auto;
+    }
+
+    .boton{
+        width: auto;
+        display: inline-block;
+        padding: 14px 28px;
+    }
+}
+@media (min-width: 1024px){
+
+    header h1{
+        font-size: 2.4rem;
+    }
+
+    header p{
+        font-size: 1.1rem;
+    }
+
+    section{
+        max-width: 900px;
+        padding: 35px;
+    }
+
+    h2{
+        font-size: 1.6rem;
+    }
+}
+/* TABLET Y DESKTOP */
